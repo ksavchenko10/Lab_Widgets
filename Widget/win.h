@@ -42,4 +42,3 @@ public:
  Win(QWidget *parent = 0); // конструктор
 };
 #endif // WIN_H
-*/

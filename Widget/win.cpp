@@ -1,4 +1,4 @@
-/*#include "win.h"
+#include "win.h"
 #include "QVBoxLayout"
 #include "QMessageBox"
 #include "QTextCodec
@@ -35,4 +35,3 @@ Win::Win(QWidget *parent):QWidget(parent)
  connect(exitbutton,SIGNAL(clicked(bool)),
  this,SLOT(close())); // связь сигнала нажатия кнопки и слота закрытия окна
 }
-*/
