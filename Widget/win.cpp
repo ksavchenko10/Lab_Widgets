@@ -6,7 +6,7 @@
 
 Win::Win(QWidget *parent):QWidget(parent)
 {
- codec = QTextCodec::codecForName("Windows-1251");
+ codec = QTextCodec::codecForName("UTF-8");
  this->setWindowTitle(codec->toUnicode("Счетчик"));
  label1 = new QLabel(codec->toUnicode("Cчет по 1"),this);
  label2 = new QLabel(codec->toUnicode("Cчет по 5"),this);
